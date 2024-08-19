@@ -11,7 +11,7 @@ resource "azurerm_storage_account" "stgterraformastate44" {
   account_replication_type = "LRS"
 }
 
-resource "azurerm_storage_container" "stg-tfstate-01" {
-  name = "stg-tfstate-01"
+resource "azurerm_storage_container" "tfstate-iac-k8s-cluster" {
+  name = "tfstate-iac-k8s-cluster"
   storage_account_name = azurerm_storage_account.stgterraformastate44.name
 }
