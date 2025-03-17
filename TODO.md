@@ -1,0 +1,3 @@
+- Add pipeline to repo
+- Merge k8s deploy and config repos
+- Remove pipeline repo
